@@ -1,0 +1,9 @@
+- Grab an ROI
+- Calculate a running average background value for 60 frames of video
+- Once avg value is found then the hand can enter the ROI
+- Once the hand enters the ROI , we will use Convex Hull to draw a polygon around the hand
+- Use some math to calculate the center of hand against the angle of outer points to infer finer count
+- The next step is to use thresholding to grab the hand segment from the ROI
+- Next step is to count the fingers being help up
+- We can do this by utilizing a Convex Hull
+- A convex hull draws a polygon by connecting points around the most external points in a frame
